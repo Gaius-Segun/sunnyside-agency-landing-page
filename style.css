@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image:url(images/desktop/image-header.jpg) ;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    padding: 30px;
+
+}
+nav{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+
+}
+
+header ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+header a{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+header h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+.arrow{
+    display: block;
+    margin: auto;
+}
