@@ -45,3 +45,12 @@ box{
     border-color: white;
     justify-content: center;
 }
+main{
+    display: grid;
+    grid-template-columns: 50% 30% 20%;
+    grid-template-columns: 1fr 1fr;
+}
+main>div{
+    border: 2px solid red;
+    height: 30vh;
+}
