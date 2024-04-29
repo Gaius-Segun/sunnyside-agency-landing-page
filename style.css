@@ -46,8 +46,47 @@ box{
 }
 main{
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 1fr;
     
+
+    grid-template-columns:2fr 3fr 1fr ;
+    grid-template-columns:repeat(2 ,1fr);
+
+    
+}
+main div{
+    height: 70vh;
+    padding-inline: 30%;
+}
+
+
+.box1,.box4{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+.box1>h4{
+    border-bottom: 5px solid yellow;
+    width: max-content;
+    padding: 10px;
+    line-height: 0.4em;
+
+}
+.box1>h4:hover{
+    border-bottom: 5px solid rgb(199, 202, 39);
+}
+.box4>h4{
+    border-bottom: 5px solid pink;
+    width: max-content;
+    padding: 10px;
+    line-height: 0.4em;
+
+}
+.box4>h4:hover{
+    border-bottom: 5px solid rgb(231, 91, 114);
 }
 main>div{
     border: 2px solid transparent;
@@ -75,6 +114,11 @@ main>div.box6{
     background-size: cover ;
     height: 30vh;
     padding: 200px;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
 
 }
 main>div.box5{
@@ -83,9 +127,15 @@ main>div.box5{
     background-size: cover ;
     height: 30vh;
     padding: 200px;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    
+}
+
+
 
 }
-main>h1.box1{
-    text-align: justify;
-    display: block;
-}
+
