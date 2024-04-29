@@ -6,8 +6,8 @@ header{
     background-image:url(images/desktop/image-header.jpg) ;
     background-position: center;
     background-size: cover;
-    height: 40vh;
-    padding: 40px;
+    height: 50vh;
+    padding: 80px;
 
 }
 nav{
@@ -16,7 +16,6 @@ nav{
    justify-content: space-between;
 
 }
-
 header ul{
     display: flex;
     gap: 20px;
@@ -51,6 +50,42 @@ main{
     
 }
 main>div{
-    border: 2px solid red;
+    border: 2px solid transparent;
     height: 30vh;
+}
+main>div.box2{
+    background-image:url(./images/desktop/image-transform.jpg);
+    background-position: center;
+    background-size: cover ;
+    height: 30vh;
+    padding: 200px;
+
+}
+main>div.box3{
+    background-image:url(./images/desktop/image-stand-out.jpg);
+    background-position: center;
+    background-size: cover ;
+    height: 30vh;
+    padding: 200px;
+
+}
+main>div.box6{
+    background-image:url(./images/desktop/image-photography.jpg);
+    background-position: center;
+    background-size: cover ;
+    height: 30vh;
+    padding: 200px;
+
+}
+main>div.box5{
+    background-image:url(./images/desktop/image-graphic-design.jpg);
+    background-position: center;
+    background-size: cover ;
+    height: 30vh;
+    padding: 200px;
+
+}
+main>h1.box1{
+    text-align: justify;
+    display: block;
 }
