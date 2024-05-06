@@ -134,8 +134,44 @@ main>div.box5{
     gap: 20px;
     
 }
-
-
-
+footer {
+    background-color: hsl(168, 34%, 41%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+} 
+.beforefooter{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
 }
+section>img{
+    width: 100%;
+}
+footer {
+    background-color: hsl(168, 34%, 41%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 40px;
+}
+footer>img{
+    color: #25564b;
+}   
+footer>ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+footer li>a {
+    text-decoration: none;
+    color: hsl(167, 40%, 24%);
+}
+footer>div {
+    display: flex;
+    gap: 20px;
+}
+
+
+
 
